@@ -14,13 +14,13 @@ const MainTabs: React.FC = () => {
         initialRouteName={'HomeScreen'}
         screenOptions={{
           tabBarLabelStyle: {fontSize: 14},
-          tabBarActiveTintColor: Colors.White,
+          tabBarActiveTintColor: Colors.RedDark,
           tabBarInactiveTintColor: Colors.Gray,
           headerShown: false,
           tabBarStyle: {
             backgroundColor: Colors.PurpleDarker,
             borderTopColor: Colors.PurpleDarker,
-            height: 100,
+            height: 80,
           },
         }}>
         <Tab.Screen
